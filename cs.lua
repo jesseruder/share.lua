@@ -190,7 +190,7 @@ do
         end
 
         if CASTLE_SERVER then -- On dedicated servers we need to periodically say we're alive
-            castle.heartbeat(numClients)
+            castle.heartbeat(5)
         end
     end
 end
